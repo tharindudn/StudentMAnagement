@@ -4,12 +4,13 @@
 
     <groupId>com.tdn</groupId>
     <artifactId>studentmanagementDB</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <scm>
         <url>scm:git:git@github.com:tharindudn/StudentMAnagement.git</url>
         <connection>scm:git:git@github.com:tharindudn/StudentMAnagement.git</connection>
         <developerConnection>scm:git:git@github.com:tharindudn/StudentMAnagement.git</developerConnection>
 
+    <tag>1.0</tag>
   </scm>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

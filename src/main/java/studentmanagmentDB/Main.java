@@ -41,13 +41,9 @@ public class Main {
 
             System.out.println("Press 4 to update marks");
 
-            System.out.println("Press 5 to insert from file...");
+            System.out.println("Press 5 to delete student marks");
 
-            System.out.println("Press 6 to print marks list...using NIO");
-
-            System.out.println("Press 7 to insert from file...using NIO");
-
-            System.out.println("Press 8 to exit..");
+            System.out.println("Press 6 to exit..");
 
             try {
                 int sw = in.nextInt();
@@ -68,7 +64,7 @@ public class Main {
                     case 5:
                         studentControl.deletemarks();
                         break;
-                    case 8:
+                    case 6:
                         System.exit(0);
 
 
